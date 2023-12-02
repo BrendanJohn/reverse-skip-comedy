@@ -5,6 +5,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img className="App-logo" alt="logo" src="./images/reverseSkip.jpg"></img>
+        <br />
+        <br />
+        <br />
         <p>
           Reverse Skip Comedy. Coming Soon
         </p>
