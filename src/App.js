@@ -1,12 +1,10 @@
-import logo from './images/reverseSkip.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <img className="card-img-top" src="./images/reverseSkip.jpg" alt="2021 Commercial Voice Reel"></img>
+        <img className="App-logo" alt="logo" src="./images/reverseSkip.jpg"></img>
         <p>
           Reverse Skip Comedy. Coming Soon
         </p>
