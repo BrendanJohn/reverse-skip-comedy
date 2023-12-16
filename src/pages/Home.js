@@ -3,14 +3,16 @@ const Home = () => {
     <div className='wrapper'>
         <div className="text-center">
         <h3>Reverse, Skip Comedy</h3>
-        <iframe 
-            width='560' 
-            height='349' 
-            src="https://www.youtube.com/embed/xvFZjo5PgG0" 
-            title="Rick Roll (Different link + no ads)" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
-        </iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe 
+                class="embed-responsive-item"
+                width='900' 
+                height='500' 
+                src="https://www.youtube.com/embed/xvFZjo5PgG0" 
+                title="Rick Roll (Different link + no ads)" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+            </iframe>
+        </div>
         </div>
     </div>
       );
