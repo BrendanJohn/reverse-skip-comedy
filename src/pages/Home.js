@@ -7,7 +7,7 @@ const Home = () => {
             <iframe 
                 class="embed-responsive-item"
                 width='900' 
-                height='500' 
+                height='500 ' 
                 src="https://www.youtube.com/embed/xvFZjo5PgG0" 
                 title="Rick Roll (Different link + no ads)" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
