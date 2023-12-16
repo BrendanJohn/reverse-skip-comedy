@@ -1,19 +1,20 @@
 const Home = () => {
     return (
+        <div className="container">
     <div className='wrapper'>
         <div className="text-center">
         <h3>Reverse, Skip Comedy</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe 
-                class="embed-responsive-item"
-                width='900' 
-                height='500 ' 
-                src="https://www.youtube.com/embed/xvFZjo5PgG0" 
-                title="Rick Roll (Different link + no ads)" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
-            </iframe>
-        </div>
-        </div>
+        <div className="embed-responsive">
+                <div className="ratio ratio-16x9 img-fluid">
+                    <iframe
+                        src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                        title="YouTube video"
+                        allowfullscreen> 
+                    </iframe>
+                </div>
+            </div>
+            </div>
+    </div>
     </div>
       );
     };
