@@ -12,7 +12,7 @@ const Header = ({ subtitle }) => (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
     <Container>
       <LinkContainer to="/">
-        <Navbar.Brand href="#home">Reverse Skip Comedy</Navbar.Brand>
+        <Navbar.Brand href="#home">Reverse, Skip Comedy</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

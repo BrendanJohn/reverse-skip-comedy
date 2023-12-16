@@ -13,6 +13,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (
+    <div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <BrowserRouter>
       <Header></Header>
       <Routes>
@@ -25,6 +27,7 @@ export default function App() {
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 
