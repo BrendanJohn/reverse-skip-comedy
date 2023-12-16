@@ -1,5 +1,11 @@
 const Gallery = () => {
-    return <h1>Gallery</h1>;
-  };
+    return (
+        <div className='wrapper'>
+            <div className="text-center">
+            <h3>Gallery</h3>
+            </div>
+        </div>
+          );
+        };
   
   export default Gallery;
