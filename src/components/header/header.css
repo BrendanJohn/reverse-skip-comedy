@@ -18,5 +18,13 @@
 }
 
 .navbar-collapse.in {
-    float: left !important;
+    float: right !important;
+  }
+
+#navbar-collapse {
+    float: right !important;
+  }
+
+  .brand {
+    float: right;
   }
