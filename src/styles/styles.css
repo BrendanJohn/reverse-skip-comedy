@@ -7,3 +7,15 @@
     width: 50%;
     padding: 15px;
 }
+
+.about-text {
+    font-family: "Comic Sans MS", "Comic Sans", monospace;
+    color: #00BFFF;
+    padding: 25px;
+}
+
+.contact-text {
+    font-family: "Comic Sans MS", "Comic Sans", monospace;
+    color: #00BFFF;
+    padding: 25px;
+}
