@@ -2,6 +2,7 @@
 import React from "react";
 import { Nav, Navbar, Container} from "react-bootstrap";
 import { LinkContainer } from 'react-router-bootstrap'
+import './header.css'
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,7 +13,9 @@ const Header = ({ subtitle }) => (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
     <Container>
       <LinkContainer to="/">
-        <Navbar.Brand href="#home">Reverse, Skip Comedy</Navbar.Brand>
+      <Navbar.Brand href="#home">
+          <img id="main-logo"  className="card-img-top contactCard" src="./images/main-logo.png" alt="main logo"></img> 
+        </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
