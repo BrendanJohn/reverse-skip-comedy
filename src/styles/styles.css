@@ -2,3 +2,8 @@
 #global{
     color: red;
 }
+
+.gallery-image {
+    width: 50%;
+    padding: 15px;
+}

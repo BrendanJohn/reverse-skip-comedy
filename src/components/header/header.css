@@ -8,11 +8,11 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: #00BFFF;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", monospace;
 
 }
 
 .navbar-light .navbar-nav .nav-link.active {
     color: #DC143C;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", monospace;
 }
