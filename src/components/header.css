@@ -5,3 +5,14 @@
 #main-logo {
     max-width: 30%;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00BFFF;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #DC143C;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
