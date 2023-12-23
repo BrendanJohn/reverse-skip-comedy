@@ -8,7 +8,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Pilot from "./pages/Pilot";
 import NoPage from "./pages/NoPage";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
     </div>
   );
