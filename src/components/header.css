@@ -1,3 +1,7 @@
-#main-logo {
+#header-logo {
     max-width: 12%;
+}
+
+#main-logo {
+    max-width: 30%;
 }

@@ -3,7 +3,7 @@ const Home = () => {
         <div className="container">
     <div className='wrapper'>
         <div className="text-center">
-        <h3>Reverse, Skip Comedy</h3>
+        <img id="main-logo"  src="./images/full-logo-tagline.png" alt="main logo"></img>
         <div className="embed-responsive">
                 <div className="ratio ratio-16x9 img-fluid">
                     <iframe

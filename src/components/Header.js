@@ -14,7 +14,7 @@ const Header = ({ subtitle }) => (
     <Container>
       <LinkContainer to="/">
       <Navbar.Brand href="#home">
-          <img id="main-logo"  className="card-img-top contactCard" src="./images/main-logo.png" alt="main logo"></img> 
+          <img id="header-logo"  className="card-img-top contactCard" src="./images/main-logo.png" alt="header logo"></img>
         </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
