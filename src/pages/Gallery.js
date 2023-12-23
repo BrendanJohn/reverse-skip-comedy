@@ -5,17 +5,17 @@ const Gallery = () => {
     return (
         <div className='wrapper'>
             <div className="text-center">
-                <Image className="gallery-image" src="./images/gallery/8M1A8016.jpg" fluid />
+                <Image className="gallery-image" src="./images/gallery/DennisMirror.jpeg" fluid />
                 < br/>
-                <Image className="gallery-image" src="./images/gallery/8M1A8022.jpg" fluid />
+                <Image className="gallery-image" src="./images/gallery/dennisProfileBricks.jpg" fluid />
                 < br/>
-                <Image className="gallery-image" src="./images/gallery/8M1A8108.jpg" fluid />
+                <Image className="gallery-image" src="./images/gallery/dennisQuentinBricks.jpg" fluid />
+                < br/>e
+                <Image className="gallery-image" src="./images/gallery/cards.jpg" fluid />
                 < br/>
-                <Image className="gallery-image" src="./images/gallery/8M1A8179.jpg" fluid />
+                <Image className="gallery-image" src="./images/gallery/market.jpg" fluid />
                 < br/>
-                <Image className="gallery-image" src="./images/gallery/8M1A8224.jpg" fluid />
-                < br/>
-                <Image className="gallery-image" src="./images/gallery/8M1A8229.jpg" fluid />
+                <Image className="gallery-image" src="./images/gallery/outside.jpg" fluid />
                 < br/>
             </div>
         </div>

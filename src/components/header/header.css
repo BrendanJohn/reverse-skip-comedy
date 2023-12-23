@@ -16,3 +16,7 @@
     color: #DC143C;
     font-family: "Comic Sans MS", "Comic Sans", monospace;
 }
+
+.navbar-collapse.in {
+    float: left !important;
+  }
