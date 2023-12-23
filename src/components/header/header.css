@@ -9,7 +9,9 @@
 .navbar-light .navbar-nav .nav-link {
     color: #00BFFF;
     font-family: "Comic Sans MS", "Comic Sans", monospace;
-
+    @media (max-width: 991px) {
+        text-align: right;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -25,6 +27,8 @@
     float: right !important;
   }
 
-  .brand {
-    float: right;
-  }
+.navbar-brand {
+    @media (max-width: 991px) {
+        width: 75%;
+    }
+}
