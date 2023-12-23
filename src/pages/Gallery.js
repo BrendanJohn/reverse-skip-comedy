@@ -10,7 +10,7 @@ const Gallery = () => {
                 <Image className="gallery-image" src="./images/gallery/dennisProfileBricks.jpg" fluid />
                 < br/>
                 <Image className="gallery-image" src="./images/gallery/dennisQuentinBricks.jpg" fluid />
-                < br/>e
+                < br/>
                 <Image className="gallery-image" src="./images/gallery/cards.jpg" fluid />
                 < br/>
                 <Image className="gallery-image" src="./images/gallery/market.jpg" fluid />
