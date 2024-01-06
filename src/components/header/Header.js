@@ -28,8 +28,8 @@ const Header = ({ subtitle }) => (
           <LinkContainer to="/about">
             <Nav.Link>About</Nav.Link>
           </LinkContainer>  
-          <LinkContainer to="/pilot">
-            <Nav.Link>Pilot</Nav.Link>
+          <LinkContainer to="/show">
+            <Nav.Link>Show</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/contact">
             <Nav.Link>Contact</Nav.Link>

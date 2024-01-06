@@ -1,5 +1,5 @@
 import Image from 'react-bootstrap/Image';
-const Pilot = () => {
+const Show = () => {
   return (
     <div className='wrapper'>
         <div className="text-center">
@@ -9,4 +9,4 @@ const Pilot = () => {
       );
     };
   
-  export default Pilot;
+  export default Show;

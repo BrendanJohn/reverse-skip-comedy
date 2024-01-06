@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Pilot from "./pages/Pilot";
+import Show from "./pages/Show";
 import NoPage from "./pages/NoPage";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -22,7 +22,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="about" element={<About />} />
-        <Route path="pilot" element={<Pilot />} />
+        <Route path="show" element={<Show />} />
         <Route path="contact" element={<Contact />} />
         <Route index element={<Home />} />
         <Route path="*" element={<NoPage />} />
