@@ -1,4 +1,5 @@
 import Image from 'react-bootstrap/Image';
+import Reel from "./../components/reel/Reel";
 
 const Home = () => {
     return (
@@ -8,8 +9,8 @@ const Home = () => {
             <img id="main-logo"  src="./images/full-logo-tagline.png" alt="main logo"></img>
                 <div className="embed-responsive">
                     <div className="ratio ratio-16x9 img-fluid">
-                        <iframe
-                            src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                    <iframe
+                            src="https://player.vimeo.com/video/900399400"
                             title="YouTube video"
                             allowFullScreen> 
                         </iframe>
