@@ -7,7 +7,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #00BFFF;
+    color: #9400D3;
     font-family: "Comic Sans MS", "Comic Sans", monospace;
     @media (max-width: 991px) {
         text-align: right;
@@ -15,7 +15,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: #DC143C;
+    color: #00BFFF;
     font-family: "Comic Sans MS", "Comic Sans", monospace;
 }
 
