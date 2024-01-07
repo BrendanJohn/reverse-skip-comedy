@@ -7,7 +7,7 @@ const Gallery = () => {
             <div className="text-center">
                 <Image className="gallery-image" src="./images/gallery/DennisMirror.jpeg" fluid />
                 < br/>
-                <Image className="gallery-image" src="./images/gallery/dennisProfileBricks.jpg" fluid />
+                <Image className="gallery-image" src="./images/gallery/fence.jpg" fluid />
                 < br/>
                 <Image className="gallery-image" src="./images/gallery/dennisQuentinBricks.jpg" fluid />
                 < br/>
