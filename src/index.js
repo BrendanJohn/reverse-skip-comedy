@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Social from "./pages/Social";
 import Show from "./pages/Show";
 import NoPage from "./pages/NoPage";
 import Header from "./components/header/Header";
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="show" element={<Show />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="social" element={<Social />} />
         <Route index element={<Home />} />
         <Route path="*" element={<NoPage />} />
       </Routes>

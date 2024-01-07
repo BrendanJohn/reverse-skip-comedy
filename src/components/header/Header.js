@@ -22,18 +22,21 @@ const Header = ({ subtitle }) => (
         <Nav className="me-auto">
         </Nav>
         <Nav>
+        <LinkContainer to="/about">
+            <Nav.Link>About</Nav.Link>
+          </LinkContainer>  
           <LinkContainer to="/gallery">
             <Nav.Link>Gallery</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/about">
-            <Nav.Link>About</Nav.Link>
-          </LinkContainer>  
           <LinkContainer to="/show">
             <Nav.Link>Show</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/contact">
             <Nav.Link>Contact</Nav.Link>
-          </LinkContainer>
+          </LinkContainer>  
+          <LinkContainer to="/social">
+            <Nav.Link>Social</Nav.Link>
+          </LinkContainer>  
         </Nav>
       </Navbar.Collapse>
       </Container>
