@@ -5,15 +5,13 @@ const About = () => {
     return (
         <div className='wrapper'>
             <div className="text-center about-text">
-            <h3>About</h3>
-            <p>Underground, unique, quirky, old school, cool and understated.</p>
+            <h2>Underground, unique, quirky, old school, cool and understated.</h2>
                 <div className="text-center">
-                    <p>Placeholder text text text text text text.
-                    Placeholder text text text text text text.
-                    Placeholder text text text text text text.
+                    <p>Quentin James and Dennis Hurley met in the Boston comedy scene in the late 2000s. 
+                        They were part of the New England based sketch comedy troupe, Friends of Gertrude. 
+                        Their work has been featured at the LA Comedy Festival at ImprovOlympic, Boston Comedy Festival, 
+                        Philly Sketch Fest, NBC, Comedy Central, Inside Edition, CNN & MSNBC.
                     </p>
-                    <p>Placeholder text text text text text text.</p>
-                    <p>Placeholder text text text text text text.</p>
                 </div>
                 <Image className="gallery-image" src="./images/DennisAndQuentinLogo.jpg" fluid />
                 < br/>
