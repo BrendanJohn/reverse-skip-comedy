@@ -1,5 +1,3 @@
-import Image from 'react-bootstrap/Image';
-import Reel from "./../components/reel/Reel";
 
 const Home = () => {
     return (
@@ -16,7 +14,6 @@ const Home = () => {
                         </iframe>
                     </div>
                 </div>
-                <Image className="gallery-image" src="./images/DennisAndQuentinLogo2.jpg" fluid />
             </div>
         </div>
     </div>
