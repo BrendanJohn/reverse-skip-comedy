@@ -6,7 +6,7 @@ const About = () => {
         <div className="container">
             <div className='wrapper'>
                 <div className="text-center about-text">
-                <h2>Underground, unique, quirky, old school, cool and understated</h2>
+                <h2>A new sketch comedy series</h2>
                     <div className="text-center">
                         <p>Quentin James and Dennis Hurley met in the Boston comedy scene in the late 2000s. 
                             They were part of the New England based sketch comedy troupe, Friends of Gertrude. 
