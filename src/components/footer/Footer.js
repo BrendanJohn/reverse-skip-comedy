@@ -12,6 +12,7 @@ const Footer = ({ subtitle }) => (
     <div className="col">
     </div>
     <div className="col-10 d-flex justify-content-center" id="socials">
+        <SocialIcon style={{ height: 38, width: 38 }} className ="social-icon" url="http://TikTok.com/@reverseskipcomedy" />
           <SocialIcon style={{ height: 38, width: 38 }} className ="social-icon" url="http://www.youtube.com/@ReverseSkipComedy " />
           <SocialIcon style={{ height: 38, width: 38 }} className ="social-icon" url="http://www.vimeo.com/user206540589" />
           <SocialIcon style={{ height: 38, width: 38 }} className ="social-icon" url="https://twitter.com/ReverseSkipDQ" />
